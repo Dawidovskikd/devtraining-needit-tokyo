@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52e6585797242110d81cd200f153af8d" label="NeedIts_Configuration Items" max_length="40" name="x_58872_needit_m2m_x_58872_need_cmdb_ci" type="collection">
+        <element attributes="encode_utf8=false" label="Configuration Items" max_length="32" name="cmdb_ci" reference="cmdb_ci" type="reference"/>
+        <element attributes="encode_utf8=false" label="NeedIts" max_length="32" name="x_58872_needit_needit" reference="x_58872_needit_needit" type="reference"/>
+        <index name="index">
+            <element name="cmdb_ci"/>
+        </index>
+        <index name="index2">
+            <element name="x_58872_needit_needit"/>
+        </index>
+    </element>
+</database>

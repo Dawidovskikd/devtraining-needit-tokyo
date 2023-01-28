@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.TestingDebuggingOptions</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TestingDebuggingOptions</name>
+        <script><![CDATA[var TestingDebuggingOptions = Class.create();
+TestingDebuggingOptions.prototype = {
+	testThat: "Maybe I can see this?",
+    initialize: function() {
+		this.testThis = "Yes, I can read it now :D";
+    },
+	
+	testFunction: function () {
+		var test = '' +  this.testThis;
+		'Just some line for testing';
+		'Just some line for testing';
+		'Just some line for testing';
+	},
+
+    type: 'TestingDebuggingOptions'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-26 07:32:18</sys_created_on>
+        <sys_id>89474e7697202110d81cd200f153af81</sys_id>
+        <sys_name>TestingDebuggingOptions</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_89474e7697202110d81cd200f153af81</sys_update_name>
+    </sys_script_include>
+</record_update>
